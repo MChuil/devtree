@@ -1,0 +1,10 @@
+opencollection: 1.0.0
+
+info:
+  name: DevTree | Node y TypeSccript
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
