@@ -1,0 +1,38 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "Proyecto NodeJs con Express",
+  "homepage": "https://github.com/MChuil/devtree#readme",
+  "bugs": {
+    "url": "https://github.com/MChuil/devtree/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MChuil/devtree.git"
+  },
+  "license": "ISC",
+  "author": "Miguel Chuil Martinez",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.10.4",
+    "slug": "^12.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "@types/slug": "^5.0.9",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
